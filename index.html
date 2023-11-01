@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <center>
+    <h2 style="color: red;">Instructions</h2>
+    <h3>Click on any text or photo to change it(: NOTHING ELSE</h3>
+    <h3>If you can not see the background color while printing ; change the printing of your browser or contact to admin</h3>
+  </center>
+    <div class="cv-container" id="CV">
+        <div class="cv-upper" id="cv-upper">
+          <div class="left">
+            <div class="photo">
+                <img src="user.webp" alt="User's Photo">
+              </div>         
+          </div>              
+          <div class="center">
+            <h1 onclick="makeEditable(this)">Name</h1>
+            <p onclick="makeEditable(this)">Designation</p>
+          </div>
+          <div class="right">
+            <div class="contact">
+              <div class="contact-item">
+                <img src="./Asset 1.png" alt="Mobile Icon">
+                <p onclick="makeEditable(this)">+91-8094778725</p>
+              </div>
+              <div class="contact-item">
+                <img src="./Asset 5.png" alt="Email Icon">
+                <p onclick="makeEditable(this)">raoakash269@gmail.com</p>
+              </div>
+              <div class="contact-item">
+                <img src="./Asset 2.png" alt="LinkedIn Icon">
+                <p onclick="makeEditable(this)">linkedin.com</p>
+              </div>
+              <div class="contact-item">
+                <img src="./Asset 3.png" alt="Address Icon">
+                <p onclick="makeEditable(this)">Address</p>
+              </div>
+              <div class="contact-item">
+                <img src="./Asset 4.png" alt="Address Icon">
+                <p onclick="makeEditable(this)">raoakash269</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cv-lower">
+          <div class="left">
+            <div class="shorten">
+              <h3 onclick="makeEditable(this)">Objective</h3>
+              <p onclick="makeEditable(this)">Objective content here.</p>
+              <hr class="horizontal-line">
+              <h3 onclick="makeEditable(this)">Technical Skills</h3>
+              <p onclick="makeEditable(this)">Technical skills content here.</p>
+              <hr class="horizontal-line">
+              <h3 onclick="makeEditable(this)">Certifications</h3>
+              <p onclick="makeEditable(this)">Certifications content here.</p>
+              <hr class="horizontal-line">
+              <h3 onclick="makeEditable(this)">Extra-Curricular <br>Activities</h3>
+              <p onclick="makeEditable(this)">Extra-Curricular Activities content here.</p>
+            </div>
+          </div>
+          <hr class="vertical-line">
+          <div class="right">
+            <h3 onclick="makeEditable(this)">Experience</h3>
+            <p onclick="makeEditable(this)">Experience content here.Experience content here.Experience content here.</p>
+            <hr class="horizontal-lineR">
+            <h3 onclick="makeEditable(this)">Projects</h3>
+            <p onclick="makeEditable(this)">Projects content here.</p>
+            <hr class="horizontal-lineR">
+            <h3 onclick="makeEditable(this)">Achievements</h3>
+            <p onclick="makeEditable(this)">Achievements content here.</p>
+            <hr class="horizontal-lineR">
+            <h3 onclick="makeEditable(this)">Education</h3>
+            <p onclick="makeEditable(this)">Education content here.</p>
+          </div>
+        </div>
+      </div>
+      <center>
+        <h3 style="color: red;">IF YOU FACE ANY ISSUES YOU CAN CONTACT TO THE MENTIONED DETAILS IN CV AS DEFAULT</h3>
+      </center>
+      <div class="bt">
+        <button id="download">Download CV</button>
+      </div>
+      
+
+      <script type="text/javascript" src="printThis.js"></script>
+      <script type="text/javascript" src="custom.js"></script>
+      
+    <script type="text/javascript" src="photo.js"></script>
+      
+      </body>
+</html>
