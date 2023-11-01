@@ -70,7 +70,7 @@ p{
 
 .cv-lower {
     display: flex;
-    padding: 20px;
+    padding: 25px;
     border-top: 1px solid #000; /* Black border at the top of the lower part */
 }
 .cv-lower p{
@@ -86,7 +86,7 @@ p{
     padding-right:30px;
 }
 .shorten{
-    width:70%
+    width:65%
 }
 .cv-lower  .right{
     flex: 0.6;
