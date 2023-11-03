@@ -75,12 +75,13 @@ p{
 }
 .cv-lower p{
     color: black;
+    font-size: 14px;
 }
 .cv-lower h3{
     color: rgb(188, 157, 100);
 }
 .cv-lower .left {
-    flex: 0.4;
+    flex: 0.5;
 }
 .cv-lower .left p {
     padding-right:30px;
